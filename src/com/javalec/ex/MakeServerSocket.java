@@ -20,7 +20,7 @@ public class MakeServerSocket {
 			
 			while (true) {
 				socket = serverSocket.accept();
-				System.out.println("Client ¿äÃ»");
+				System.out.println("Client ìš”ì²­");
 				
 				writer = new PrintWriter(socket.getOutputStream(), true);
 				reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
